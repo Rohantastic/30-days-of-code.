@@ -1,7 +1,5 @@
- 
- 
-#include <iostream>
- 
+#include<iostream>
+#include<cmath> 
 using namespace std;
 
 int main() 
@@ -16,7 +14,7 @@ int main()
     taxp=(meal*taxp/100);
     
     
-    total = (meal + tipp+taxp);
-    cout<<"The total meal cost is "<<total<<" dollars.";
+    total = round(meal + tipp+taxp);
+    cout<< dollars;
     return 0;
 }
